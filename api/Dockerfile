@@ -1,0 +1,4 @@
+FROM node:12.18.4-alpine3.12
+ENV PGUSER=postgres, PGPASSWORD=changeme, PGHOST=localhost, PGPORT=5432, PGDATABASE=postgres
+EXPOSE 3000
+WORKDIR /api

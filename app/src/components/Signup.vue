@@ -86,6 +86,7 @@ export default {
     },
   },
 };
+console.log("running in broweser?")
 </script>
 
 <style>
